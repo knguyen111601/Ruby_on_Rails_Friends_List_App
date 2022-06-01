@@ -12,7 +12,11 @@
     <%= javascript_importmap_tags %>
   </head>
   <body>
-    <%= yield %> <%# Yield grabs whatevers in the html files you've made and put it in here %>
+    <%= render 'home/header'  %> <%# accessing and rendering the header from home directory %>
+    <div class="container">
+      <br/>
+      <%= yield %> <%# Yield grabs whatevers in the html files you've made and put it in here %>
+    </div>
   </body>
 </html>
 
