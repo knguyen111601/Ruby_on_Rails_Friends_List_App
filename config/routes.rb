@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :friends
+  resources :friends # automatically has CRUD routes from friends resources
   root 'home#index' # makes home page the root
   
   get 'home/about'
