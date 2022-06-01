@@ -1,4 +1,9 @@
 class HomeController < ApplicationController
-  def index
+  def index # correlates to index.html in views
+  end
+
+  def about
   end
 end
+
+
